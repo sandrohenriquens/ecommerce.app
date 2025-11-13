@@ -6,7 +6,7 @@ export default function HeaderContainer() {
   return (
     <header
       data-component="header-container"
-      className="bg-primary flex h-16 items-center justify-around p-4 text-white"
+      className="bg-black flex h-16 items-center justify-around p-4 text-white"
     >
       <Link href="/">Home</Link>
       <HeaderSearch />

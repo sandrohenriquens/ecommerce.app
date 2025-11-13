@@ -1,5 +1,4 @@
-@import "tailwindcss";
-
+@import 'tailwindcss';
 
 @theme {
   --color-background: var(--background);
@@ -9,16 +8,24 @@
 }
 
 @theme {
-  --color-primary: #2f3834;
+  --color-primary: #070707;
 }
 
 body {
-  background: #ededed;
-  color: #0a0a0a;
+  background: #040406;
+  color: #ffffff;
   font-family: Arial, Helvetica, sans-serif;
+  height: 100vh
 }
 
-
-.display-column-4 {
+.flex-col-4 {
   @apply flex flex-col gap-4;
+}
+
+.flex-col-2 {
+  @apply flex flex-col gap-2;
+}
+
+.common-input {
+  @apply rounded-sm bg-amber-50 p-2 text-black;
 }
