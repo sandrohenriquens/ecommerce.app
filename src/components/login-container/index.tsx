@@ -1,4 +1,4 @@
-import LoginForm from '@/src/components/login/login-form';
+import LoginForm from '@/src/components/login-container/components/login-form';
 import Link from 'next/link';
 
 export default function LoginContainer() {

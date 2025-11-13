@@ -1,6 +1,6 @@
-import HeaderContainer from '@/src/components/header';
-import FooterContainer from '@/src/components/footer';
-import HomeContainer from '@/src/components/home';
+import HeaderContainer from '@/src/components/header-container';
+import FooterContainer from '@/src/components/footer-container';
+import HomeContainer from '@/src/components/home-container';
 
 export default function HomePage() {
   return (

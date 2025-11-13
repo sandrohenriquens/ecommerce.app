@@ -1,13 +1,13 @@
 import HeaderContainer from '@/src/components/header-container';
 import FooterContainer from '@/src/components/footer-container';
-import RegisterContainer from '@/src/components/register';
+import CartContainer from '@/src/components/cart-container';
 
-export default function RegisterPage() {
+export default function HomePage() {
   return (
     <div className="flex flex-col">
       <HeaderContainer />
       <main>
-        <RegisterContainer />
+        <CartContainer />
       </main>
       <FooterContainer />
     </div>
