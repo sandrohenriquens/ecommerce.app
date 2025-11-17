@@ -11,6 +11,10 @@
   --color-primary: #070707;
 }
 
+@utility no-scrollbar {
+  @apply [scrollbar-width:none] [&::-webkit-scrollbar]:hidden;
+}
+
 body {
   background: #040406;
   color: #ffffff;

@@ -1,20 +1,23 @@
-import type { Metadata } from "next";
-import { Geist, Geist_Mono } from "next/font/google";
-import "@/src/styles/globals.css";
+import type { Metadata } from 'next';
+import { Geist, Geist_Mono } from 'next/font/google';
+import '@/src/styles/globals.css';
+import HeaderContainer from '@/src/components/header-container';
+import NavBarContainer from '@/src/components/nav-bar-container';
+import FooterContainer from '@/src/components/footer-container';
 
 const geistSans = Geist({
-  variable: "--font-geist-sans",
-  subsets: ["latin"],
+  variable: '--font-geist-sans',
+  subsets: ['latin'],
 });
 
 const geistMono = Geist_Mono({
-  variable: "--font-geist-mono",
-  subsets: ["latin"],
+  variable: '--font-geist-mono',
+  subsets: ['latin'],
 });
 
 export const metadata: Metadata = {
-  title: "Ecommerce App",
-  description: "Ecommerce App",
+  title: 'Ecommerce App',
+  description: 'Ecommerce App',
 };
 
 export default function RootLayout({
@@ -27,7 +30,10 @@ export default function RootLayout({
       <body
         className={`${geistSans.variable} ${geistMono.variable} antialiased`}
       >
+        <HeaderContainer />
+        <NavBarContainer />
         {children}
+        <FooterContainer />
       </body>
     </html>
   );
