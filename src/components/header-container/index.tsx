@@ -6,7 +6,7 @@ import HeaderSearch from '@/src/components/header-container/components/header-se
 export default function HeaderContainer() {
   return (
     <header data-component="header-container" className="bg-black text-white">
-      <div className="mxy-0 mx-auto flex max-w-2xl items-center justify-evenly p-4">
+      <div className="mx-auto flex max-w-2xl items-center justify-evenly p-4">
         <div className="flex items-center gap-2">
           <Link href="/">
             <IoLogoOctocat size={24} />

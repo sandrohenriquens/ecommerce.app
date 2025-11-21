@@ -1,12 +1,10 @@
-import Link from "next/link";
+import CategoryCarousel from '@/src/components/common/category-carousel';
 
 export default function HomeContainer() {
   return (
-    <div
-      data-component="home-container"
-      className="flex-col-4 h-screen"
-    >
-      <Link href="/">Home Page Container</Link>
+    <div data-component="home-container" className="pages-container">
+      <p>Home Page Container</p>
+      <CategoryCarousel />
     </div>
   );
 }
