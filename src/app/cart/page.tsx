@@ -1,10 +1,10 @@
-import HomeContainer from '@/src/components/home-container';
+import CartContainer from '@/src/components/cart-container';
 
 export default function HomePage() {
   return (
     <div className="flex flex-col">
       <main>
-        <HomeContainer />
+        <CartContainer />
       </main>
     </div>
   );

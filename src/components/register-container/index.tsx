@@ -1,4 +1,4 @@
-import RegisterForm from '@/src/components/register/register-form';
+import RegisterForm from '@/src/components/register-container/components/register-form';
 
 export default function RegisterContainer() {
   return (
