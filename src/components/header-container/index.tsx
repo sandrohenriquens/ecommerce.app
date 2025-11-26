@@ -13,7 +13,6 @@ export default function HeaderContainer() {
         <div className="flex items-center gap-2">
           <Link href="/login">Login</Link>
           <Link href="/cart">
-            <IoCartOutline size={24} />
           </Link>
         </div>
       </div>
