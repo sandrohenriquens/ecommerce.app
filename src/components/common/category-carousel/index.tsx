@@ -11,7 +11,7 @@ export default function CategoryCarousel() {
   return (
     <div
       data-component="category-carousel"
-      className="rounded-md bg-gray-800 p-4"
+      className="rounded-md bg-primaryGray p-4"
     >
       <div className="mb-4 text-2xl font-semibold">Categories</div>
       <Swiper
