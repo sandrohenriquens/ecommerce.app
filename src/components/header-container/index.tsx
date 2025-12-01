@@ -3,17 +3,15 @@ import HeaderSearch from '@/src/components/header-container/components/header-se
 
 export default function HeaderContainer() {
   return (
-    <header data-component="header-container" className="bg-black text-white">
-      <div className="mx-auto flex max-w-2xl items-center justify-evenly p-4">
+    <header data-component="header-container">
+      <div className="bg-primaryGray flex items-center justify-evenly p-4">
         <div className="flex items-center gap-2">
-          <Link href="/">Home
-          </Link>
+          <Link href="/">Home</Link>
           <HeaderSearch />
         </div>
         <div className="flex items-center gap-2">
           <Link href="/login">Login</Link>
-          <Link href="/cart">
-          </Link>
+          <Link href="/cart"></Link>
         </div>
       </div>
     </header>

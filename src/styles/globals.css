@@ -119,14 +119,13 @@
   }
 }
 
-@utility no-scrollbar {
-  @apply [scrollbar-width:none] [&::-webkit-scrollbar]:hidden;
+@theme {
+  --color-primaryGray: #282829;
+  --color-secondaryGray: #181818;
 }
 
-body {
-  background: #040406;
-  color: #ffffff;
-  height: 100vh;
+@utility no-scrollbar {
+  @apply [scrollbar-width:none] [&::-webkit-scrollbar]:hidden;
 }
 
 .pages-container {
